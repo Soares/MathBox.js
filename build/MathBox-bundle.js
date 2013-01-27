@@ -42990,7 +42990,7 @@ MathBox.Animator.Animation.prototype = {
         rolloff = fraction * fraction;
         break;
       case 'linear':
-        roloff = fraction;
+        rolloff = fraction;
         break;
       default:
         rolloff = .5-.5*Math.cos(fraction * π);
